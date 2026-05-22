@@ -2,7 +2,7 @@ CREATE TABLE "posts" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"title" varchar(255) NOT NULL,
 	"content" text,
-	"author_id" serial NOT NULL,
+	"author_id" integer,
 	"published" boolean DEFAULT false,
 	"created_at" timestamp DEFAULT now(),
 	"updated_at" timestamp DEFAULT now()

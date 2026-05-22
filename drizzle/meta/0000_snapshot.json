@@ -1,5 +1,5 @@
 {
-  "id": "ed898ddf-b351-4506-a939-fb2674d19ad8",
+  "id": "eee90cce-5922-459b-95e6-65c50cb00bf4",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -28,9 +28,9 @@
         },
         "author_id": {
           "name": "author_id",
-          "type": "serial",
+          "type": "integer",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "published": {
           "name": "published",
